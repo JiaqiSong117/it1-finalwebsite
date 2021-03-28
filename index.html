@@ -43,11 +43,12 @@
       <nav id="navbar" class="navbar order-last order-lg-0" >
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#search">Search</a></li>
-          <li><a class="nav-link scrollto " href="#explore">Explore</a></li>
+          <li><a class="nav-link scrollto" href="#tabs">About</a></li>
+          <li><a class="nav-link scrollto" href="#Bubble">Bubble</a></li>
+          <li><a class="nav-link scrollto" href="./news.html">Recommondation</a></li>
+          <!-- <li><a class="nav-link scrollto " href="#explore">Explore</a></li> -->
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -63,7 +64,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -78,18 +79,18 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <div class="row">
         <div class="col-xl-6">
-          <h1> Opener</h1>
-          <h2>We are aiming to demonstrate the impact of the filter bubble on people</h2>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <h1> Are you in a social media bubble? Here's how to tell</h1>
+          <h2>What you read from social media is filtered by algorithms, so maybe you can only get personalized content, thus isolating yourselves in own cultural or ideological bubble, resulting in a limited access to knowledge…</h2>
+          <a href="#tabs" class="btn-get-started scrollto">Let’s Find Out!</a>
         </div>
       </div>
     </div>
 
   </section><!-- End Hero -->
 
-  <main id="main">
+  <!-- <main id="main">
 
-    <!-- ======= Clients Section ======= -->
+    < ======= Clients Section ======= >
     <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
 
@@ -107,192 +108,143 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>End Clients Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
+
+    <!-- End About Section -->
+
+    <section id="tabs" class="tabs">
       <div class="container" data-aos="fade-up">
 
-        <div class="row no-gutters">
-          <div class="content col-xl-5 d-flex align-items-stretch">
-            <div class="content">
-              <h3>What you read from social media is filtered by algorithms</h3>
-              <p>
-                What you read from social media is filtered by algorithms, so maybe you can only get personalized content, thus isolating yourselves in own cultural or ideological bubble, resulting in a limited access to knowledge…
-              </p>
-              <a href="#" class="about-btn"><span>Back to Main</span> <i class="bx bx-chevron-right"></i></a>
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <i class="ri-number-1"></i>
+              <h4 class="d-none d-lg-block" style="margin-left: -24px; margin-top: 20px;">st Type of filter bubble
+              </h4>
+              <!-- <h3>The one created by audience measurement</h3> -->
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <i class="ri-number-2"></i>
+              <h4 class="d-none d-lg-block" style="margin-left: -18px; margin-top: 20px;">nd type of filter bubble</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <i class="ri-number-3"></i>
+              <h4 class="d-none d-lg-block" style="margin-left: -18px; margin-top: 20px;">rd type of filter bubble</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <i class="ri-number-4"></i>
+              <h4 class="d-none d-lg-block" style="margin-left: -18px; margin-top: 20px;">th type of filter bubble</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <h3>The one created by audience measurement</h3>
+                <p class="font-italic">
+                  According to D. Cardon “views” is a type of data used to produce calculations of audience. At the origin of these measurements are medias, 
+                  which had to agreed on some sort of third-party authority to ensure the neutrality and fairness of of market share calculations.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> In this model (which is nowadays applied to online measurements too) the computation takes place “next” to the data (to reuse the words of D. Cardon).</li>
+                  <li><i class="ri-check-double-line"></i> A measure of the popularity is produced based on the number of users’ views.</li>
+                  <li><i class="ri-check-double-line"></i> Calculation is independent of the content and the content itself is only dependent on the producer himself.</li>
+                  <li><i class="ri-check-double-line"></i> In the case of media, this producer is the journalist (and the editorial team). These persons are the gatekeepers and they follow certain rules.
+                  </li>
+
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="./img/b1.jpg" alt="" class="img-fluid">
+              </div>
             </div>
           </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Digital age</h4>
-                  <p>In this digital age where information is just a tap away, it's important that the same technology is used to defend the user from its own challenges.
-
-                  </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Advanced data analysis</h4>
-                  <p>We at eye opener aim to do just that, using advanced data analysis our products aims to help the user to identify their own filter bubbles and suggest necessary precaution.
-                  </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-images"></i>
-                  <h4>Our group</h4>
-                  <p>We are a group of five Monash graduates who are working together to accomplish this common goal.
-                  </p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Brand Vision</h4>
-                  <p>Brand Vision: Team Eye-Opener aims to demonstrate the impact of the filter bubble on people, especially young people, in the current network environment.</p>
-                </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>The one created by hyperlinks</h3>
+                <p>
+                  In this model hyperlinks are used as a proxy for authority. A hyperlink to an external ressource implicitly confirms its quality which enables ranking. The main problem is the predominance of the consumption of search results appearing on the first page.
+                </p>
+                <p class="font-italic">
+                  While it is understandable that many pages may not be relevant (because they contain errors and deserve to be demoted) one can wonder about the differences in terms of informational quality between the first 10 results and the next 10. Did you know that only 8.5% of users visit the second page of results when they search for something on google? And even less (1.1%) go on the third page.
+                </p>
+                <p>
+                  What you may not know though is that Google’s ranking Algorithm (PageRank) embedes machine learning capabilities. When you click on a link and then go back to the results page, google will degrade the position of the link because in its logic it is considered less relevant than if you didn’t go back to the results page. One may therefore wonder whether a short article, easy to read but full of errors and biases, could be ranked above a long article, very rich in information and details but difficult to read.
+                </p>
+              
               </div>
-            </div><!-- End .content-->
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="./img/b2.png" alt="" class="img-fluid" style="width: 400px; height: 400px;">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>The one created by social geetkeepers</h3>
+                <h3>(= influencers)</h3>
+                <p>
+                  Feedback mechanisms are also integrated within social sites (retweets in Twitter, likes in Facebook, pinned images in Pinterest, checks in Foursquare, …) 
+                  and we naturally have to wonder how much of an influence some people may have when it comes to content propagation within a network. You won’t be surprized to 
+                  hear that some people have become celebrities on social networks and are able to generate considerable buzz.
+                </p>
+                <p class="font-italic">
+                  A study on the polarization of views on twitter shows the influence of people who are located at the nodes of the social network; in particular this study shows that idea propagation 
+                  is not a neutral process and that those at the nodes filter out the content that doesn’t fit their views, hence exposing their followers to polarized ideas.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="./img/b3.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>One created by our own behavior</h3>
+                <p>
+                  As Dominique Cardon puts it, algorithms “predict” the future by extending the slope of past behaviors. 
+                  This is probably what inspired Eli Pariser when he invented the term “filter bubble”.
+                </p>
+                <p class="font-italic">
+                  One example among many is Netflix which recommends the next movie to watch based on 
+                  those which were watched in the past (for more information read this article on the RecSys conference 2016). 
+                  “Programming” someone’s future based on his/her past observed behaviors (which are sometimes far from  virtuous 
+                  and enriching) put us at risk. Less “qualitative” behaviors (like watching a Jean-Claude Vandamme rather 
+                  than an Opera for instance) will start a self-reinforcing loop. We’ll be served more “junk” content and because we 
+                  are only Human Beings with weaknesses, 
+                  the algorithm will exploit them and we’ll slowly but surely slip into mediocrity. There is no gatekeeper. 
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="./img/b4.png" alt="" class="img-fluid" style="height: 400px;">
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section><!-- End Tabs Section -->
+
+    <section id="Bubble" class="about">
+      <div class="container" data-aos="fade-up" align="center" >
+        
+        <h2>Balance Your News Diet</h2>
+
+        <iframe src="chart_example.html" style="width: 666px; height: 666px; margin-left: 300px; "></iframe>
 
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="search" class="counts">
-      <div class="container" data-aos="fade-up">
-
-
-        <div class="row">
-
-          <div class="footer-top">
-            <div class="container">
-              <div class="col-lg-10 col-md-6 footer-newsletter">
-                
-              </div>
-      
-            </div>
-          </div>
-
-        </div>
-        <iframe src="chart_example.html" style="width: 900px; height: 600px; margin-left: 300px;"></iframe>
-
-
-      </div>
-    </section><!-- End Counts Section -->
-
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="explore" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>News sources</h2>
-          <p>
-          </p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Sort by twitter follower</li>
-              <li data-filter=".filter-card">Sort by FaceBook follower</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="img/01.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>7 News</h4>
-                <p>Seven News (stylised 7NEWS) is the television news service of the Seven Network and, as of 2016, the highest-rating in Australia</p>
-                <div class="portfolio-links">
-                  <a href="img/01.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="More Details"><i class="bx bx-plus"></i></a>
-                  <a href="https://7news.com.au" title="Link"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="img/02.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>ABC news </h4>
-                <div class="portfolio-links">
-                  <a href="img/02.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="ABC News is a public news service in Australia produced by the News and Current Affairs division of the Australian Broadcasting Corporation."><i class="bx bx-plus"></i></a>
-                  <a href="https://www.abc.net.au/news/" title="Link"><i class="bx bx-link"></i></a>
-                </div>  
-              </div>
-            </div>
-          </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/06.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>The Guardian</h4>
-                <p>Website</p>
-                <div class="portfolio-links">
-                  <a href="img/05.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Guardian is a British daily newspaper. It was founded in 1821 as The Manchester Guardian, and changed its name in 1959."><i class="bx bx-plus"></i></a>
-                  <a href="https://www.theguardian.com/au" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="img/04.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Daily Mail</h4>
-                <p>Website</p>
-                <div class="portfolio-links">
-                  <a href="img/04.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Daily Mail is a British daily middle-market newspaper published in London in a tabloid format. Founded in 1896, it is the United Kingdom's highest-circulated daily newspaper."><i class="bx bx-plus"></i></a>
-                  <a href="https://www.dailymail.co.uk/auhome/index.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="img/05.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>The Sydney Morning Herald</h4>
-                <p>Website</p>
-                <div class="portfolio-links">
-                  <a href="img/05.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="The Sydney Morning Herald (SMH) is a daily compact newspaper published in Sydney, New South Wales, Australia, and owned by Nine."><i class="bx bx-plus"></i></a>
-                  <a href="https://www.smh.com.au/"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="img/03.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>9 News</h4>
-                <p>WebSite</p>
-                <div class="portfolio-links">
-                  <a href="img/03.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Nine News (stylised 9News) is the national news service of the Nine Network in Australia."><i class="bx bx-plus"></i></a>
-                  <a href="https://www.9news.com.au/" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -300,7 +252,8 @@
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+          <p>
+          </p>
         </div>
 
         <div class="row">
