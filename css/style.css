@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #6F8FEA;
+  background: #6b8bf7;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -198,16 +198,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a {
-  padding: 10px 20px;
+  padding: 20px 20px;
   font-size: 14px;
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3a61e0;
+  color: #FFC80D;
 }
 
 .navbar .dropdown:hover > ul {
@@ -467,6 +467,7 @@ section {
   top: 60px;
   left: 0;
   right: 0;
+  transform: skewY(-3deg);
 }
 
 /*--------------------------------------------------------------
@@ -585,10 +586,14 @@ section {
   padding-left: 5px;
 }
 
+
+
 .about .content .about-btn:hover {
   background: #3a61e0;
-  background: #3a61e0;
+  
 }
+
+
 
 .about .icon-boxes .icon-box {
   margin-top: 30px;
@@ -2094,4 +2099,131 @@ section {
   background: #3a61e0;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Bubble search button
+--------------------------------------------------------------*/
+
+.footer-newsletter {
+  font-size: 30px;
+}
+
+.footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer-newsletter form {
+  margin-top: 30px;
+  background: #3a61e0;
+  padding: 5px 5px;
+  position: relative;
+  border-radius: 10px;
+  text-align: left;
+  
+}
+
+.footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 10px 0px;
+  width: calc(101% - 100px);
+  
+}
+
+.footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #3a61e0;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer-newsletter form input[type="submit"]:hover {
+  background: #e35052;
+}
+
+.famous-pic {
+  margin-top: -150px; 
+  margin-left: 0px; 
+  width: 150px; 
+  height: 150px;        
+  box-shadow: 4px 4px 10px 1px rgba(255, 255, 255, 0.59);        
+  border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+@keyframes move {
+  25% {
+      opacity: 1;
+  }
+  33% {
+      opacity: 1;
+      transform: translateY(30px);
+  }
+  67% {
+      opacity: 1;
+      transform: translateY(40px);
+  }
+  100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+
+@keyframes pulse {
+  to {
+      opacity: 1;
+  }
+}
+
+
 }
